@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- tailwind -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+ <div class="form-container text-white">
+  <h1 class="form-conatiner__heading">Form Registration</h1>
+<table class="">
+  <tr>
+    <th>Name:</th>
+    <td><input type="text" name="Form" id="nameInput" placeholder="Enter name"></td>
+    
+  </tr>
+  <tr>
+    <th>Email:</th>
+    <td><input type="text" name="Form" id="emailInput" placeholder="Enter email"></td>
+  </tr>
+  <tr>
+    <th>Password:</th>
+    <td><input type="text" name="Form" id="passwordInput" placeholder="Enter password"></td>
+  </tr>
+  <tr>
+  <td> </td>
+    <td rowspan="2"><input class="bg-green-200  px-5 py-2 text-black rounded-xl" type="submit" name="" id="submitInput"></td>
+  </tr>
+</table>
+
+<p class="nameError">Name should contain letter</p>
+<p class="emailError">Enter vaild email</p>
+<p class="passwordError">Password contains atleast 6 characters</p>
+
+<!-- final?\ -->
+
+ </div>
+
+ <div class="text-white ml-80">
+  <label class="relative bottom-80 text-white" > Enter You Concerns :</label>
+ 
+  <textarea class="mt-10 rounded-xl p-3 bg-gray-900" name="form" id="TextAreaInput" placeholder="Give your descirption...." maxlength="500" rows="15" cols="50" ></textarea>
+    <p class="ml-96"  id="para"> <span id="wordCount">0</span>/50</p>
+ </div>
+ <script src="script.js"></script>
+  </body>
+</html>

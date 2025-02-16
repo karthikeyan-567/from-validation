@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.form-container {
+  border: groove 2px white;
+  width: 600px;
+  height: 550px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 50px white;
+}
+.form-conatiner__heading {
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 20px;
+}
+
+table, th, td{
+    border:solid 1px white;
+
+    padding: 20px;
+    margin:auto;
+    margin-top: 50px;
+    
+}
+table input{
+    background-color: transparent;
+    font-size: 20px;
+}
+table input:focus{
+    outline: none;
+}
+.nameError,.emailError,.passwordError{
+    margin-left: 30%;
+    margin-top:10px ;
+    display: none;
+}
